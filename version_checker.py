@@ -11,7 +11,7 @@ import sys
 from dataclasses import dataclass
 from typing import Optional
 
-from github import Github, GithubException
+from github import Auth, Github, GithubException
 from packaging import version
 
 
@@ -280,7 +280,7 @@ def main():
         sys.exit(1)
 
     # Initialize GitHub client
-    gh = Github(args.github_token)
+    gh = Github(auth=Auth.Token(args.github_token))
 
     # Parse versions file
     print(f"Parsing {args.versions_file}...")
