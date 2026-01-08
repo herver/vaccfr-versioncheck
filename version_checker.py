@@ -218,7 +218,7 @@ def create_issue(gh: Github, repo_name: str, plugin: Plugin, new_version: str, d
 **Latest {version_type}**: {new_version}
 
 **Repository**: {plugin.github_url}
-**Release link**: {plugin.github_url}/{'commit' if plugin.is_commit_hash else 'releases/tag/v'}{new_version}
+**Release link**: {plugin.github_url}/{'commit' if plugin.is_commit_hash else 'releases/tag/v'}/{new_version}
 
 This issue was automatically created by the version checker.
 """
