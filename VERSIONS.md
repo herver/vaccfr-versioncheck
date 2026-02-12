@@ -6,7 +6,7 @@ This page helps in maintaining the versions of the Euroscope plugins in the vari
 
 | Plugin                                                           | LFBB    | LFEE    | LFFF    | LFMM    | LFRR    | LFXX    |
 | ---------------------------------------------------------------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| [CoFrance](https://github.com/vaccfr/CoFrance/)                  | 1.6.1   | 1.6.1   | 1.6.1   | 1.6.1   | 1.6.1   | 1.6.1   |
+| [CoFrance](https://github.com/vaccfr/CoFrance/)                  | 1.6.2   | 1.6.2   | 1.6.2   | 1.6.2   | 1.6.2   | 1.6.2   |
 | [vSMR](https://github.com/AlexisBalzano/vSMR/)                   | 1.0.7   | 1.0.7   | 1.0.7   | 1.0.7   | 1.0.7   | 1.0.7   |
 | [CCAMS](https://github.com/kusterjs/CCAMS)                       | 2.5.3   | 2.5.3   | 2.5.3   | 2.5.3   | 2.5.3   | 2.5.3   |
 | [RampAgent](https://github.com/AlexisBalzano/EuroscopeRampAgent) | 1.0.6   | 1.0.6   | 1.0.6   | 1.0.6   | 1.0.6   | 1.0.6   |
